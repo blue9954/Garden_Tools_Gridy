@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "run_id": "gridy-1.0.0-validation",
+  "criteria": [
+    {
+      "id": "A01",
+      "status": "PASS",
+      "scope": "Qt 드롭 이벤트 PASS, Windows 파일 선택 PASS; 탐색기 실제 드래그는 미실행"
+    },
+    {
+      "id": "A02",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A03",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A04",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A05",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A06",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A07",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A08",
+      "status": "PASS",
+      "scope": "EXIF/투명도/sRGB ICC PASS; 광색역 기준 이미지 비교 미실행"
+    },
+    {
+      "id": "A09",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A10",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A11",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A12",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A13",
+      "status": "PASS",
+      "scope": "원본 이동/변경 실제 테스트, ENOSPC/EACCES 오류 주입 검사 PASS"
+    },
+    {
+      "id": "A14",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A15",
+      "status": "PASS",
+      "scope": "핵심 자동 검사와 Qt 통합 검사; 자세한 범위는 검증결과.md 참조"
+    },
+    {
+      "id": "A16",
+      "status": "NOT_RUN",
+      "scope": "16GB 기준 PC 미실행; 현재 256GB PC의 코어 5회 중앙값은 목표 이내"
+    },
+    {
+      "id": "A17",
+      "status": "NOT_RUN",
+      "scope": "실제 Instagram 게시와 게시 후 표시 확인 미실행"
+    }
+  ],
+  "evidence": [
+    "artifacts/pytest.xml",
+    "artifacts/source-smoke-final/smoke.json",
+    "artifacts/frozen-smoke/smoke.json",
+    "artifacts/benchmark/benchmark.json",
+    "artifacts/manifest.json",
+    "검증결과.md"
+  ]
+}
